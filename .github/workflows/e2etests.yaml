@@ -41,7 +41,7 @@ jobs:
 
   TestCilium:
     needs: SetPatternfile
-    uses: meshery/meshery/.github/workflows/testadapters.yaml@master
+    uses: MUzairS15/meshery/.github/workflows/testadapters.yaml@master
     with:
       expected_pods: cilium, cilium-operator, cilium-operator
       expected_pods_namespaces: kube-system, kube-system, kube-system
